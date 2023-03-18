@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	char number[10] = "0123456";
+	char number[10] = "0123456789";
 	int n;
 
 	for (n = 0; n < 10; n++)
