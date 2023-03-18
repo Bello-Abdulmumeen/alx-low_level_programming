@@ -14,7 +14,7 @@ int main(void)
 		for (j = 0; j < 10; j++)
 		{
 		putchar(i + '0'); /* print the current digit */
-		putchar(j + '0'); /* print the current digit */
+		putchar(j); /* print the current digit */
 
 		if (i != 9 || j != 9) /* if not the least combination*/
 		{
