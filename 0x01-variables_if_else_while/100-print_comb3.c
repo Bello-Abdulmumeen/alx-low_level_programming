@@ -21,6 +21,7 @@ int main(void)
 			putchar(' '); /* print a space*/
 		}
 		}
+	}
 		putchar('\n');
 		return (0);
 }
