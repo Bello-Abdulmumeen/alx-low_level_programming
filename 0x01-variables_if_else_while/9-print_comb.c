@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
+		putchar(i + '0'); /* print the current digit */
 		if (i != 9)
 		{
 			putchar(','); /* print a comma*/
