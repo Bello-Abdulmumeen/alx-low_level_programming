@@ -11,12 +11,14 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 1; j < 10; j++)
+		for (j = 0; j < 10; j++)
 		{
-			for (k = 2; k < 10; k++)
+			for (k = 0; k < 10; k++)
 		{
 			if (k > j && k > i)
 			{
+				if (i != j && i != k && j != k)
+				{
 				putchar(i + 0);
 				putchar(j + 0); 
 				putchar(k + 0); 
