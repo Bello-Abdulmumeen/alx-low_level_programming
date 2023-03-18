@@ -16,7 +16,6 @@ int main(void)
 		putchar(i + '0'); /* print the current digit */
 		putchar(j + '0'); /* print the current digit */
 
-		if (i != 8) /* if not the least combination*/
 		{
 			putchar(','); /* print a comma*/
 			putchar(' '); /* print a space*/
