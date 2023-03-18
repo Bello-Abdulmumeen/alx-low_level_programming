@@ -20,7 +20,7 @@ int main(void)
 				putchar(i + 0);
 				putchar(j + 0); 
 				putchar(k + 0); 
-			       if (n != 7 || j != 8)
+			       if (n != 9 || j != 8 || k != 7)
 			       {	       
 
 		{
