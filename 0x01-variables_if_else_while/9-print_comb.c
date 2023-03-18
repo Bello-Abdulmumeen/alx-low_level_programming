@@ -11,7 +11,12 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d ", i);
+		putchar(n):
+		if (n != 9)
+		{
+			putchar(','); /* print a comma*/
+			putchar(' '); /* print a space*/
+		}
 	}
 	putchar('\n');
 	return (0);
