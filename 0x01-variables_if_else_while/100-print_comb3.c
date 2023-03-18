@@ -9,9 +9,9 @@ int main(void)
 {
 	int i, j;
 
-	for (i = 0; i < 6; i++)
+	for (i = 0; i < 7; i++)
 	{
-		for (j = 0; j < 6; j++)
+		for (j = 0; j < 7; j++)
 		{
 		putchar(i + '0'); /* print the current digit */
 		putchar(j + '0'); /* print the current digit */
