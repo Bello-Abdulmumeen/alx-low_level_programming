@@ -16,7 +16,7 @@ int main(void)
 		putchar(i + '0'); /* print the current digit */
 		putchar(i + '0'); /* print the current digit */
 
-		if (i != 9 || j != 9) /* if not the least combination*/
+		if (i != 9 | j != 9) /* if not the least combination*/
 		{
 			putchar(','); /* print a comma*/
 			putchar(' '); /* print a space*/
