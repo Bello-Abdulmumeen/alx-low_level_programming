@@ -4,15 +4,19 @@
  * main - print all alphabet in lower case
  *
  * Return: Always 0
- */
+*/
 
-int main(void) 
+int main(void)
 {
-	char letter 
-		for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	char letter = 'a';
 
-}
-putchar('\n');
-return (0);
+	while (letter <= 'z')
+	{
+		putchar(letter);
+		letter++;
+	}
+
+	putchar('\n');
+
+	return (0);
 }
