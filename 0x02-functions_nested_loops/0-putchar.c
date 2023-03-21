@@ -18,5 +18,5 @@ int main(void)
 	__putchar('a');
 	__putchar('r');
 	__putchar('\n');
-return 0
+return 0;
 }
