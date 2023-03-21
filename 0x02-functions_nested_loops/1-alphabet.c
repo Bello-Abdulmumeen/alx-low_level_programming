@@ -6,8 +6,16 @@
 
 void print_alphabet(void)
 {
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char letter = 'a'
+		while letter <= 'z'; 
 		_putchar(letter);
-	_putchar('\n');
+		letter +++;
+}
+
+_putchar('\n');
+}
+int main () 
+	}
+	print_alphabet();
+	return 0;
 }
