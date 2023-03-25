@@ -2,16 +2,19 @@
 
 /**
  * print_alphabet - print all alphabet in lower case
+ * Return: 0
  */
 
-void print_alphabet(void);
-
+void print_alphabet(void)
 {
-	char letter;
-	
-	for (letter = 'a; letter <= 'z'; letter++)
+	char let;
+
+	for (let = 'a'; let <= 'z'; let++)
 	{
-		_putchar(letter);
+		if(let <= 0)
+		{
+			_putchar(let);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
