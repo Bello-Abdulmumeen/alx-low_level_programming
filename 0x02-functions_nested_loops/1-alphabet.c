@@ -10,11 +10,7 @@ void print_alphabet(void)
 	char let;
 
 	for (let = 'a'; let <= 'z'; let++)
-	{
-		if(let <= 0)
-		{
-			_putchar(let);
-		}
+			_putchar(let);	
 		_putchar('\n');
 	}
-}
+
